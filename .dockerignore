@@ -1,0 +1,7 @@
+
+.terraform
+terraform
+venv
+__pycache__
+.git
+mlops-flask-api.tar
