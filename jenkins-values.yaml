@@ -1,0 +1,23 @@
+
+controller:
+  installPlugins:
+    - kubernetes
+    - workflow-aggregator
+    - git
+    - docker-workflow
+
+  volumes:
+    - name: docker-sock
+      hostPath:
+        path: /var/run/docker.sock
+
+    - name: docker-bin
+      hostPath:
+        path: /usr/bin/docker
+
+  volumeMounts:
+    - name: docker-sock
+      mountPath: /var/run/docker.sock
+
+    - name: docker-bin
+      mountPath: /usr/bin/docker

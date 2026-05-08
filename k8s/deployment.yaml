@@ -23,5 +23,5 @@ spec:
     spec:
       containers:
         - name: mlops-api
-          image: docker.io/library/mlops-flask-api:latest
-          imagePullPolicy: Never
+          image: mraees1989/mlops-flask-api:latest
+          imagePullPolicy: Always
