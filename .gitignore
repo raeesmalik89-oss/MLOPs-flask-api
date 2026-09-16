@@ -6,3 +6,7 @@ terraform/.terraform/
 *.zip
 *.tar
 __pycache__/
+venv/
+terraform/aws/
+.terraform/
+__pycache__/
