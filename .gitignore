@@ -1,12 +1,15 @@
-
+# Terraform
 .terraform/
 terraform/.terraform/
+terraform/aws/
 *.tfstate
 *.tfstate.backup
+
+# Python
+__pycache__/
+.pytest_cache/
+venv/
+
+# Archives
 *.zip
 *.tar
-__pycache__/
-venv/
-terraform/aws/
-.terraform/
-__pycache__/
